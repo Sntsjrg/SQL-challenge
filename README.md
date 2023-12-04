@@ -1,4 +1,5 @@
 # SQL-challenge
+![SQL](https://github.com/Sntsjrg/SQL-challenge/assets/143827707/879a5f22-5fea-4b9e-b4cb-6509a75f29e2)
 
 # Overview
 This three-part challenge covers Data Modeling, Data Engineering, and Data Analysis
