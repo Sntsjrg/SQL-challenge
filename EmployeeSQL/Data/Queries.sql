@@ -11,16 +11,16 @@ From dept_manager dm
 Join departments d ON dm.dept_no = d.dept_no
 Join employees e ON dm.emp_no = e.emp_no;
 
-Selcet de.emp_no, de.dept_no, e.last_name, e.first_name, d.dept_name
+Select de.emp_no, de.dept_no, e.last_name, e.first_name, d.dept_name
 From dept_emp de
 Join employees e ON de.emp_no = e.emp_no
 Join departments d ON de.dept_no = d.dept_no;
 
 Select first_name, last_name, sex
 From employees
-Wherefirst_name = 'Hercules' AND last_name LIKE 'B%';
+Where first_name = 'Hercules' AND last_name LIKE 'B%';
 
-Selct e.emp_no, e.last_name, e.first_name
+Select e.emp_no, e.last_name, e.first_name
 From employees e
 Join dept_emp de ON e.emp_no = de.emp_no
 Join departments d ON de.dept_no = d.dept_no
